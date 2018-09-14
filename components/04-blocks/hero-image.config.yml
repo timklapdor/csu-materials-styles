@@ -1,0 +1,18 @@
+title: Hero Images
+status: ready
+notes: The Hero Block allows you to display text over an image. Contain the image and text inside the ```<div class="hero">``` and the text within a ```<div>``` that uses one of the classes that sets alignment. The exaple text is a ```<h1>``` tag but any element will work. Be aware that there may be some issues with the display of text on small mobile screen and so text should be kept to a minumum.
+collated: true
+context:
+  modifier: Hero Image - Centred
+  image: /images/landscape.jpg
+  text: Some Fancy Header text
+  alignment: center
+variants:
+  - name: Left Aligned
+    context:
+      modifier: Hero Image - Left Aligned
+      alignment: left
+  - name: Right Aligned
+    context:
+      modifier: Hero Image - Right Aligned
+      alignment: right

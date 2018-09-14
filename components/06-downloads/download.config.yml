@@ -1,0 +1,30 @@
+title: Downloads
+status: ready
+collated: true
+context:
+  modifier: Source Sans Pro Font
+  description: The Source Sans Pro package can be installed on a local machine. This can be helpful for local design and development. You can also find Source Sans Pro on Google Fonts.
+  link: /files/Source_Sans_Pro.zip
+variants:
+  - name: default
+    label: fonts
+  - name: CSS
+    context:
+      modifier: Learning Material CSS
+      description: You can download a copy of the Learning Material CSS. This CSS does not contain the unique Blackboard elements, just the underlying styles.
+      link: /css/learning-materials.css
+  - name: Starter
+    context:
+      modifier: HTML & CSS
+      description: This zip file contains a HTML and CSS file ready to test out and build using the new styles.
+      link: /files/starter.zip
+  - name: SASS
+    context:
+      modifier: SASS Files
+      description: If you prefer to work with the uncompiled SASS/SCSS you can use this folder of files.
+      link: /files/sass.zip
+  - name: Activity
+    context:
+      modifier: Activity Icons
+      description: Icons developed for Interaction Based actitivies.
+      link: /files/activity-icons.zip

@@ -1,0 +1,25 @@
+title: Brand Colour Pallette
+label: CSU Brand
+order: 1
+status: ready
+collated: true
+notes: These are the official CSU Brand Colours
+context:
+  SW1: brand-black
+  SW1-text: "#1A1A1A"
+  SW1-label: Black
+  SW2: brand-red
+  SW2-text: "#B00C1D"
+  SW2-label: Red
+  SW3: brand-orange
+  SW3-text: "#D1441D"
+  SW3-label: Orange
+  SW4: brand-brown
+  SW4-text: "#887E6E"
+  SW4-label: Brown
+  SW5: brand-light
+  SW5-text: "#DAD3CC"
+  SW5-label: Light
+  mod-1: dark
+  mod-2: light
+  mod-3: fade

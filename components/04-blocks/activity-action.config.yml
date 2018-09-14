@@ -1,0 +1,36 @@
+title: Actions & Activities
+status: ready
+collated: true
+notes: Actions and Activites can be applied to container ```<div>``` tags. By wrapping the image in a ```<div class="icon">``` it automatically sizes the image correctly and the same with the text by wrapping it in a ```<div class="instructions">``` 
+context:
+  modifier: Activity Box
+  type: activity
+  colour:
+  icon: /images/Blk-Plus.png
+  text: "Make it high quality and please use html can you make the font a bit bigger and change it to times new roman? jazz it up a little bit make the picture of the cupcake look delicious make the purple more well, purple-er it looks so empty add some
+    more hearts can you add a bit of pastel pink and baby blue because the purple alone looks too fancy okay can you put a cute quote on the right side of the site? oh no it looks messed up! i think we need to start from scratch. We need more images
+    of groups of people having non-specific types of fun. We have big contacts we will promote you I really like the colour but can you change it, and can you make it pop."
+variants:
+  - name: Coloured
+    context:
+      modifier: Coloured Activity Box
+      type: activity
+      colour: csu-success
+      icon: /images/Rev-Down.png
+      text: "Make it high quality and please use html can you make the font a bit bigger and change it to times new roman? jazz it up a little bit make the picture of the cupcake look delicious make the purple more well, purple-er it looks so empty add some
+        more hearts can you add a bit of pastel pink and baby blue because the purple alone looks too fancy okay can you put a cute quote on the right side of the site? oh no it looks messed up! i think we need to start from scratch. We need more images
+        of groups of people having non-specific types of fun. We have big contacts we will promote you I really like the colour but can you change it, and can you make it pop."
+  - name: Coloured
+    context:
+      modifier: Action Box
+      type: action
+      colour: csu-warning csu-rev-blk
+      icon: /images/Blk-Question.png
+      text: "Make it high quality and please use html can you make the font a bit bigger and change it to times new roman?"
+  - name:  Coloured
+    context:
+      modifier: Coloured Activity Box
+      type: action
+      colour: csu-primary
+      icon: /images/Rev-Warning.png
+      text: "Make it high quality and please use html can you make the font a bit bigger and change it to times new roman?"

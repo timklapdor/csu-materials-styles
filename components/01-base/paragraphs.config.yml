@@ -1,0 +1,29 @@
+title: Paragraphs
+status: ready
+notes: Most test should be contained with paragraphs. Use the *lead* class to create a different style applied to the first paragraph. The ```apa``` class can be added to create references with a hanging indent.
+collated: true
+context:
+  modifier: default
+  text: Paragraph of text goes in here. It's pretty easy to see how this might all work, when there's an example of you to have a look at.
+variants:
+  - name: Lead
+    context:
+      modifier: Lead Paragraph
+      class: lead-paragraph
+      text: Paragraph of text goes in here. It's pretty easy to see how this might all work, when there's an example of you to have a look at.
+  - name: Coloured Paragraph
+    context:
+      modifier: Coloured Paragraph
+      class: csu-green-text
+      text: Paragraph of text goes in here. It's pretty easy to see how this might all work, when there's an example of you to have a look at.
+  - name: sub-sup
+    context:
+      modifier: Sub and Superscript
+  - name: APA
+    context:
+      modifier: APA Referencing
+      class: apa
+      text: APA Referencing List Items
+      ref1: "Conole, G. (2009). <em>Personalisation through technology-Enhanced learning</em>. In J. O’Donoghue (Ed.), Technology-Supported Environments for Personalized Learning: Methods and Case Studies (pp. 1-15). London: IGI Global. doi:10.4018/978-1-60566-884-0.ch001"
+      ref2: "Gibson, D., Ostashewski, N., Flintoff, K., Grant, S., &amp; Knight, E. (2013). Digital badges in education. <em>Education and information technologies, 20</em>(2), 403-410. doi:10.1007/s10639-013-9291-7"
+      ref3: "Irwin, B., Hepplestone, S., Holden, G., Parkin, H. J., & Thorpe, L. (2013). Engaging students with feedback through adaptive release. Innovations in Education & Teaching International, 50(1), 51-61. doi:10.1080/14703297.2012.748333"

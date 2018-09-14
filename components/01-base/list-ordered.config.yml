@@ -1,0 +1,53 @@
+title: List Ordered
+status: ready
+collated: true
+notes: A variety of numerical systems can be applied to Ordered Lists using classes. This enables them to be changed quickly by simply changing the class rather than adding letters and numbers to each list item.  
+context:
+  modifier: Default
+  text: Example List Item
+variants:
+  - name: Alpha Low
+    context:
+      modifier: Alpha Low
+      class: alpha-low
+      text: Alpha Low List Items
+  - name: Alpha Upper
+    context:
+      modifier: Alpha Upper
+      class: alpha-upper
+      text: Alpha Upper List Items
+  - name: Decimal
+    context:
+      modifier: Decimal
+      class: decimal
+      text: Decimal List Items
+  - name: Decimal Zero
+    context:
+      modifier: Decimal Zero
+      class: decimal-zero
+      text: Decimal Zero List Items
+  - name: None
+    context:
+      modifier: No Style
+      class: none
+      text: No list style List Items
+  - name: Roman Low
+    context:
+      modifier: Roman Low
+      class: roman-low
+      text: Roman Low List Items
+  - name: Roman Upper
+    context:
+      modifier: Roman Upper
+      class: roman-upper
+      text: Roman Upper List Items
+  - name: Special Numbers
+    context:
+      modifier: Special Numbers
+      class: number-list
+      text: Special Number List Items
+  - name: Step List
+    context:
+      modifier: Step List
+      class: step-list
+      text: Step List Items

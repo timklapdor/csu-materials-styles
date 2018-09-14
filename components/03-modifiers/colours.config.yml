@@ -1,0 +1,43 @@
+title: Colour Modifiers
+status: ready
+collated: true
+notes: The Colour Modifiers can be applied to change the background, text, border or line, special list or table or div. The convention for this is ```csu-COLOURNAME, csu-COLOURNAME-text, csu-COLOURNAME-line, csu-COLOURNAME-list & csu-COLOURNAME-fade```. 
+context:
+  modifier: blue
+variants:
+  - name: Green
+    context:
+      modifier: green
+  - name: grey
+    context:
+      modifier: grey
+  - name: ochre
+    context:
+      modifier: ochre
+  - name: orange
+    context:
+      modifier: orange
+  - name: purple
+    context:
+      modifier: purple
+  - name: red
+    context:
+      modifier: red
+  - name: foa
+    context:
+      modifier: foa
+  - name: fob
+    context:
+      modifier: fob
+  - name: fos
+    context:
+      modifier: fos
+  - name: primary
+    context:
+      modifier: primary
+  - name: secondary
+    context:
+      modifier: secondary
+  - name: success
+    context:
+      modifier: success

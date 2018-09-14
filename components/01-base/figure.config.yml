@@ -1,0 +1,23 @@
+title: Figure
+status: ready
+collated: true
+notes: The new ```<figure>``` HTML element acts as a simple responsive container for media and by ```<figcaption>``` a simple way to make media more accessible. Figure can also be modified - see the ```Image``` and ```Video``` modifiers to change size and location.
+context:
+  modifier: Image
+  class: featured
+  media: /images/landscape.jpg
+  alt: alt="View of lovely mountains
+  caption: "A view of lovely mountains <cite>https://unsplash.com/photos/NDuPLKYRXQU</cite>"
+variants:
+  - name: No Style
+    context:
+      modifier: No Style
+      media: /images/landscape.jpg
+      class: featured no-style
+      caption: "A view of lovely mountains <cite>https://unsplash.com/photos/NDuPLKYRXQU</cite>"
+  - name: Video
+    context:
+      modifier: Video
+      media: <div class="video"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/977AYjapws0" frameborder="0" allowfullscreen></iframe></iframe></div>
+      class: featured full-width
+      caption: "This is a promo video for u!magine <cite>http://www.uimagine.edu.au</cite>"

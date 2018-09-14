@@ -1,0 +1,30 @@
+title: Block Quotes
+status: ready
+collated: true
+notes:  Blockquotes are a great tool to display and layout text items. There are two variants on the base blockquote element - *Pullquote* and *Fancyquote*. These are helpful for drawing attention to text within the content or to hightlight passages of text. Use the Blockquote element as a container for paragraphs, lists and headings (```<p>, <ul>, <ol>, <li> & <h1> – <h6>```). Colours can be applied to add visual impact.
+context:
+  modifier: default
+  text: Someone famous once said something really profound. It was probably Einstein. Yeah Einstein.
+  cite: Albert Einstein, 2017
+  label: Default
+variants:
+  - name: Blockquote + Colour
+    context:
+      modifier: Pullquote
+      class: csu-green-text
+  - name: Pullquote
+    context:
+      modifier: Pullquote
+      class: pullquote
+  - name: Coloured Pullquote
+    context:
+      modifier: Coloured Pullquote
+      class: pullquote csu-green
+  - name: Fancyquote
+    context:
+      modifier: Fancyquote
+      class: fancyquote
+  - name: Coloured Fancyquote
+    context:
+      modifier: Coloured Fancyquote
+      class: fancyquote csu-green-text

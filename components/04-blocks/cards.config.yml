@@ -1,0 +1,22 @@
+title: Card Layout
+status: ready
+notes: You can use Cards to create objects that stand out from rest of the content on the page. Useful for creating navigation or more visually appealing links to other content or sections.
+collated: true
+context:
+  modifier: Card with Image & Text
+  image: /images/landscape.jpg
+  text: Some Fancy Header text
+  alignment: center
+variants:
+  - name: Buttons
+    context:
+      modifier: Cards with Buttons
+      image: /images/objects.jpg
+  - name: Profiles
+    context:
+      modifier: Cards for Profiles & Contacts
+      image: /images/profile-1-sq.jpg
+  - name: Images
+    context:
+      modifier: Cards for dispalying Images
+      image: /images/profile-4-sq.jpg

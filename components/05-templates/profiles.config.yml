@@ -1,0 +1,35 @@
+title: Staff Profiles
+status: ready
+collated:
+notes: These templates can be used to create simple staff pages. Swap out details, colour classes and link information.
+context:
+  modifier: Staff Profile
+  profile-pic-1: /images/profile-1-sq.jpg
+  profile-pic-2: /images/profile-2-sq.jpg
+  profile-pic-3: /images/profile-3-sq.jpg
+  profile-pic-4: /images/profile-4-sq.jpg
+  colour-1: green
+  colour-2: purple
+  colour-3: orange
+  colour-4: blue
+  bio-name: Christian Surname
+  bio-title: Job title
+  bio-email: csurname@csu.edu.au
+  bio-twitter: csurname
+  bio-website: www.cristian-surname.com
+  bio-text: "Spent several months developing shaving cream in West Palm Beach, FL. Lead a team buying and selling catfish in Libya. Spent 2001-2005 getting my feet wet with fried chicken in Deltona, FL. Managed a small team working on cigarettes in Cuba. Spent 2001-2007 investing in toy planes in Minneapolis, MN. Garnered an industry award while getting to know junk food in Jacksonville, FL."
+variants:
+  - name: default
+    label: 1up
+  - name: 2up
+    context:
+      modifier: 2up Profiles
+  - name: 3up
+    context:
+      modifier: 3up Profiles
+  - name: 4up
+    context:
+      modifier: 4up Profiles
+  - name: Cards
+    context:
+      modifier: Card Based Profiles

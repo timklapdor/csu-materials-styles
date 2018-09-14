@@ -1,0 +1,19 @@
+title: Colour Modifiers
+status: ready
+collated: true
+notes: The APA modifier can be added to ```<div>```, ```<ul>``` and ```<ol>``` tags to create the hanging indent used for APA referencing.
+context:
+  modifier: APA to DIV
+  container: div
+  element: p
+variants:
+  - name: Unordered List
+    context:
+      modifier: APA to Unordered List
+      container: ul
+      element: li
+  - name: Ordered List
+    context:
+      modifier: APA to Ordered List
+      container: ol
+      element: li

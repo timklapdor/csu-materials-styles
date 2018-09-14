@@ -1,0 +1,73 @@
+title: Simple Grid
+status: ready
+collated: true
+notes: A DIV has a ```flex-row``` class applied to it and then you place DIVs with ```flex-column``` attributes inside. By default these columns will resize to fit - but additional classes for 2x & 3x make it easy to create simple grids based on thirds and quarters. Modifiers can be added to any column to resize it.
+context:
+  modifier: Simple Grid - Auto Fit
+  column-1:
+  column-2:
+  image: /images/landscape.jpg
+  video: <figure class="featured"><div class="video"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/977AYjapws0" frameborder="0" allowfullscreen></iframe></div><figcaption> Some text in here </figcaption></figure>
+  text: How much will it cost it looks a bit empty, try to make everything bigger thanks for taking the time to make the website, but i already made it in wix can we try some other colours maybe. <br />I have an awesome idea for a startup, i need you
+    to build it for me make it sexy, that's great, but can you make it work for ie 2 please we are your relatives can we have another option. Could you rotate the picture to show the other side of the room?
+variants:
+  - name: alignment
+    context:
+      modifier: Align Vertical
+      alignment-1: flex-start
+      alignment-2: flex-center
+      alignment-3: flex-end
+  - name: alignment
+    context:
+      modifier: Align Horizontal
+      alignment-1: flex-center flex-align-start
+      alignment-2: flex-center flex-align-center
+      alignment-3: flex-center flex-align-end
+  - name: thirds
+    context:
+      modifier: Thirds Layout - Left
+      label: Thirds Right
+      column-1:
+      column-2: -2
+  - name: thirds
+    context:
+      modifier: Thirds Layout - Right
+      label: Thirds Right
+      column-1: -2
+      column-2:
+  - name: thirds
+    context:
+      modifier: Three Quarter Layout - Left
+      label: Three Quarters 
+      column-1:
+      column-2: -3
+  - name: thirds
+    context:
+      modifier: Three Quarter Layout - Right
+      column-1: -3
+      column-2:
+  - name: content
+    context:
+      modifier: Example - Halves Layout
+      column-1:
+      column-2:
+  - name: content
+    context:
+      modifier: Example - Thirds Layout - Left
+      column-1:
+      column-2: -2
+  - name: content
+    context:
+      modifier: Example - Thirds Layout - Right
+      column-1: -2
+      column-2:
+  - name: content
+    context:
+      modifier: Example - 3/4 Layout - Left
+      column-1:
+      column-2: -3
+  - name: content
+    context:
+      modifier: Example - 3/4 Layout - Right
+      column-1: -3
+      column-2:

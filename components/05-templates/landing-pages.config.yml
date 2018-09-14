@@ -1,0 +1,22 @@
+title: Landing Pages
+status: ready
+context:
+  modifier: Weekly Update
+  subject: "ABC123 The Alphabet: <br><em><span class='smaller-text'>How to spell words and stuff</span></em>"
+  colour: green
+variants:
+  - name: default
+    label: Weekly Update
+  - name: Overview
+    context:
+      modifier: Overview with Video
+      subject: "ABC222: Advanced Alphabet"
+      colour: blue
+  - name: summary
+    context:
+        modifier: Weekly summary
+        subject: "ABC300: Alphabet in the Workforce"
+        colour: green
+        accent: orange
+        profile: /images/profile-3-sq.jpg
+        image: /images/landscape.jpg

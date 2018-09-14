@@ -1,0 +1,7 @@
+title: Tooltip
+status: ready
+collated: true
+notes: Tooltips can be added to exiting html elements by adding the ```tooltip``` attribute. Most commonly you would only want the tooltip to apply to a single sentence or word within a paragraph so it's designed to be used withe the ```<span>``` tag.
+context:
+  modifier: default
+  text: Tooltips are <span tooltip="This makes them easy to see in the text">underlined with a dotted line</span>. Tool tips can also be applied to links <a tooltip="This is a link out to Google" href="http://goggle.com">which go out to the world</a> which makes them quite flexible.

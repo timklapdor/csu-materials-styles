@@ -1,0 +1,52 @@
+title: Table Modifiers
+status: ready
+collated: true
+notes: Tables by default are left unstyled - but adding the ```table``` class applies a range of formating options for outlines, headings and highlighting. 
+context:
+  modifier: Table Class Default
+  table-class:
+  table-head:
+variants:
+  - name: Boxes
+    context:
+      modifier: Boxes
+      table-class: boxes
+      table-head:
+  - name: Striped Odd
+    context:
+      modifier: Striped Odd Rows
+      table-class: stripe-row-odd
+      table-head:
+  - name: Striped Even
+    context:
+      modifier: Striped Even Rows
+      table-class: stripe-row-even
+      table-head:
+  - name: Striped Even
+    context:
+      modifier: Striped Even Columns
+      table-class: stripe-col-even
+      table-head:
+  - name: Striped Even
+    context:
+      modifier: Striped Odd Columns
+      table-class: stripe-col-odd
+      table-head:
+  - name: Head Coloured
+    context:
+      modifier: Head Coloured
+      table-class:
+      table-head: csu-blue
+  - name: first-col
+    context:
+      modifier: First Column
+      table-class: stripe-col-first
+      table-head:
+  - name: row-fades
+    context:
+      modifier: Individual Row Colours
+      row1: csu-blue
+      row2: csu-red-fade
+      row3: csu-green-fade
+      row4: csu-orange-fade
+      row5: csu-purple-fade

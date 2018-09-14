@@ -1,0 +1,21 @@
+title: Activity Icons
+status: ready
+collated: true
+notes: These activity icons were designed to represents the different kinds of interact rather than specific types of activity. This follows along from the work done in the Online Learning Model.
+context:
+  modifier: Community
+variants:
+  - name: default
+    label: Community
+  - name: Content
+    context:
+      modifier: Content
+  - name: Institution
+    context:
+      modifier: Institution
+  - name: Peer
+    context:
+      modifier: Peer
+  - name: Teacher
+    context:
+      modifier: Teacher

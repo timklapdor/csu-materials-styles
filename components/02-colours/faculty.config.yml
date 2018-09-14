@@ -1,0 +1,18 @@
+title: Faculty Colour Pallette
+label: Faculty Colours
+status: ready
+collated: true
+notes: These are the official CSU Faculty Colours. NB - these colours do not pass accessibility standards for contrast and so should not be used for important information.
+context:
+  SW1: foa
+  SW1-text: "#327B8C"
+  SW1-label: FoAE
+  SW2: fob
+  SW2-text: "#1647AD"
+  SW2-label: FoBJBS
+  SW3: fos
+  SW3-text: "#9CBB15"
+  SW3-label: FoS
+  mod-1: dark
+  mod-2: light
+  mod-3: fade

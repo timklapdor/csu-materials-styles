@@ -1,0 +1,19 @@
+title: Video Galleries
+status: ready
+collated: true
+notes: Images inside a ```<figure>``` element can be grouped into gallerys and can include separate captions. Size of images can be set using the size modifiers ```_3up, _4up & _5up```.
+context:
+  modifier: 3UP Gallery
+  image: /images/landscape.jpg
+  media: <div class="video"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/977AYjapws0" frameborder="0" allowfullscreen></iframe></div>
+  caption: Welcome to u!magine
+  size: _3up
+variants:
+  - name: 4up
+    context:
+      modifier: 4UP Gallery
+      size: _4up
+  - name: 5up
+    context:
+      modifier: 5UP Gallery
+      size: _5up

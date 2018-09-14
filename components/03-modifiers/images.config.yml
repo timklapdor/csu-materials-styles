@@ -1,0 +1,32 @@
+title: Image Modifiers
+status: ready
+collated: true
+notes: The image modifiers set size - ```_30, _50 & _60``` - and size/location - ```featured``` (for full width) or ```float-left``` or ```float-right```
+context:
+    modifier: Full Width Image in Text
+    class: featured
+    direction:
+    caption: Lots of lightbulbs hanging down
+    link: https://unsplash.com/photos/1NTFSnV-KLs
+    image: /images/landscape.jpg
+variants:
+  - name: Left Float
+    context:
+      modifier: Image in Text - Left + 30% Width
+      class: _30
+      direction: float-left
+  - name: Right Float
+    context:
+      modifier: Right + 30% Width
+      class: _30
+      direction: float-right
+  - name: Right Float
+    context:
+      modifier: Left + 50% Width
+      class: _50
+      direction: float-left
+  - name: Right Float
+    context:
+      modifier: Right + 60% Width
+      class: _60
+      direction: float-right

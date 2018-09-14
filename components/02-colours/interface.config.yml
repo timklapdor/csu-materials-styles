@@ -1,0 +1,36 @@
+title: User Interface Colour Pallette
+label: User Interface
+status: ready
+collated: true
+notes: The following colours are to be used to create basic user interface elements. 
+context:
+  SW1: primary
+  SW1-text: "#B00C1D"
+  SW1-label: Primary
+  SW2: secondary
+  SW2-text: "#347EA4"
+  SW2-label: Secondary
+  SW3: warning
+  SW3-text: "#FFDC0B"
+  SW3-label: Warning
+  SW4: success
+  SW4-text: "#318700"
+  SW4-label: Success
+  SW5: grey-nav
+  SW5-text: "#414141"
+  SW5-label: Grey Nav
+  SW6: grey-item
+  SW6-text: "#757575"
+  SW6-label: Grey Item
+  SW7: grey-hover
+  SW7-text: "#E0E0E0"
+  SW7-label: Grey Hover
+  SW8: grey-page
+  SW8-text: "#F8F8F8"
+  SW8-label: Grey Page
+  SW9: highlight-subtle
+  SW9-text: "#FCF8E3"
+  SW9-label: Highlight
+  mod-1: dark
+  mod-2: light
+  mod-3: fade

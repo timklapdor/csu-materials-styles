@@ -1,0 +1,43 @@
+title: Text Modifiers
+status: ready
+notes: Text can be modified by applying the following classes. These should be only applied for aesthetic reasons - and not when content should be presented in specific ways (especially for Uppercase and Capitalised text).
+collated: true
+context:
+  modifier: no
+variants:
+  - name: uppercase
+    context:
+      modifier: uppercase
+  - name: capitalise
+    context:
+      modifier: capitalise
+  - name: lowercase
+    context:
+      modifier: lowercase
+  - name: underline
+    context:
+      modifier: underline
+  - name: small-text
+    context:
+      modifier: small-text
+  - name: smaller-text
+    context:
+      modifier: smaller-text
+  - name: large-text
+    context:
+      modifier: large-text
+  - name: larger-text
+    context:
+      modifier: larger-text
+  - name: heavy-text
+    context:
+      modifier: heavy-text
+  - name: light-text
+    context:
+      modifier: light-text
+  - name: indent
+    context:
+      modifier: indent
+  - name: caption
+    context:
+      modifier: caption

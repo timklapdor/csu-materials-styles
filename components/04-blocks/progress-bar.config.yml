@@ -1,0 +1,28 @@
+title: Progrss Bar
+status: ready
+notes: Add one of the colour classes to the DIV then set the ```data-label``` with the overlay text and set the ```width``` to remainder - ensuring that it equals 100%
+collated: true
+context:
+  modifier: Red Coloured Progress
+  colour: red
+  complete: 15
+  remaining: 85 #equals 100%
+variants:
+  - name: Green
+    context:
+      modifier: Green Coloured Progress
+      colour: green
+      complete: 45
+      remaining: 55 #equals 100%
+  - name: Orange
+    context:
+      modifier: Orange Coloured Progress
+      colour: orange
+      complete: 65
+      remaining: 35 #equals 100%
+  - name: Purple
+    context:
+      modifier: Purple Coloured Progress
+      colour: purple
+      complete: 85
+      remaining: 15 #equals 100%

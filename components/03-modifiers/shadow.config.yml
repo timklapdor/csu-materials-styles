@@ -1,0 +1,11 @@
+title: Shadows
+status: ready
+notes: The Learning Materials styles utilise Google's Material Design concept of depth for items on the page. Some elements already use shadows but they can be applied using the various classes.  
+collated: true
+context:
+  modifier: Various Shadow Heights
+  sh1: shadow-1
+  sh2: shadow-2
+  sh3: shadow-3
+  sh4: shadow-4
+  sh5: shadow-5

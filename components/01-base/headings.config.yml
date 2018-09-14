@@ -1,0 +1,6 @@
+title: Headings
+status: ready
+notes: Headings should be used semantically to create structure within documents. 
+context:
+  modifier: default
+  text: Heading Example

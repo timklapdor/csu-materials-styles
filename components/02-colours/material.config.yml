@@ -1,0 +1,31 @@
+title: Material Colour Pallette
+label: Learning Materials
+order: 2
+status: ready
+collated: true
+notes: These colours form the new Learning Materials Palette and have been tested for accessibility for use on white and reversed applications.
+context:
+  SW1: blue
+  SW1-text: "#0A6396"
+  SW1-label: Blue
+  SW2: green
+  SW2-text: "#0F8A14"
+  SW2-label: Green
+  SW3: grey
+  SW3-text: "#666666"
+  SW3-label: Grey
+  SW4: orange
+  SW4-text: "#D93C0B"
+  SW4-label: Orange
+  SW5: purple
+  SW5-text: "#6E267B"
+  SW5-label: Purple
+  SW6: red
+  SW6-text: "#D92231"
+  SW6-label: Red
+  SW7: ochre
+  SW7-text: "#B76603"
+  SW7-label: Ochre
+  mod-1: dark
+  mod-2: light
+  mod-3: fade

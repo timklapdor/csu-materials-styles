@@ -1,0 +1,8 @@
+title: Chat Display
+status: ready
+notes: The Chat Block allows a two person dialogue to be displayed in a format many are familar with. This may be helpful for content that wishes to display conversations or dialogue. To break up an individual speakers text you can use a ```</br>``` which inserts a line to create a seperate "message".
+collated: true
+context:
+  modifier: Display Dialogue as a Chat
+  person1: /images/person1.jpg
+  person2: /images/person2.jpg

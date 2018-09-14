@@ -1,0 +1,36 @@
+title: Video Modifiers
+status: ready
+collated: true
+notes: The video modifiers set size - ```_30, _50 & _60``` - and location or ```float-left``` or ```float-right```
+context:
+  modifier: Full Width Video in Text
+  class:
+  direction:
+  caption: Intro for uImagine
+  link: https://youtu.be/977AYjapws0
+variants:
+  - name: No Style
+    context:
+      modifier: No Style
+      class: no-style
+      direction: 
+  - name: Left Float
+    context:
+      modifier: Left + 30% Width
+      class: _30
+      direction: float-left
+  - name: Right Float
+    context:
+      modifier: Right + 30% Width
+      class: _30
+      direction: float-right
+  - name: Right Float
+    context:
+      modifier: Left + 50% Width
+      class: _50
+      direction: float-left
+  - name: Right Float
+    context:
+      modifier: Right + 60% Width
+      class: _60
+      direction: float-right
