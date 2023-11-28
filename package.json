@@ -2,6 +2,6 @@
   "name": "CSU Learning Materials",
   "version": "0.1.0",
   "dependencies": {
-    "@frctl/fractal": "^1.1.7"
+    "@frctl/fractal": "^1.5.15"
   }
 }
